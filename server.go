@@ -2,7 +2,7 @@ package ldap
 
 import (
 	"crypto/tls"
-	"github.com/nmcclain/asn1-ber"
+	"github.com/lanrenwo/asn1-ber"
 	"io"
 	"log"
 	"net"

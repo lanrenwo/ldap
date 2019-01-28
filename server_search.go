@@ -3,7 +3,7 @@ package ldap
 import (
 	"errors"
 	"fmt"
-	"github.com/nmcclain/asn1-ber"
+	"github.com/lanrenwo/asn1-ber"
 	"net"
 	"strings"
 )

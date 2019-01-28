@@ -1,7 +1,7 @@
 package ldap
 
 import (
-	"github.com/nmcclain/asn1-ber"
+	"github.com/lanrenwo/asn1-ber"
 	"log"
 	"net"
 )
