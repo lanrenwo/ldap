@@ -3,7 +3,7 @@ package main
 import (
 	"crypto/sha256"
 	"fmt"
-	"github.com/nmcclain/ldap"
+	"github.com/lanrenwo/ldap"
 	"log"
 	"net"
 	"sync"

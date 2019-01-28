@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/nmcclain/ldap"
+	"github.com/lanrenwo/ldap"
 	"log"
 	"net"
 )
