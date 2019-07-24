@@ -34,7 +34,7 @@ func HandleBindRequest(req *ber.Packet, fns map[string]Binder, conn net.Conn) (r
 		log.Print("Unknown LDAP authentication method")
 		return LDAPResultInappropriateAuthentication
 	case LDAPBindAuthSimple:
-		if len(req.Children) == 3 {
+		if len(req.Children) >= 3 {
 			fnNames := []string{}
 			for k := range fns {
 				fnNames = append(fnNames, k)
